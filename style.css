@@ -1,0 +1,13 @@
+img {
+    filter: grayscale(1);
+}
+
+.non-greyed-out {
+    filter: grayscale(0);
+}
+
+.track-grid {
+    display: grid;
+    grid-template-columns: 7;
+    grid-template-rows: auto;
+}
